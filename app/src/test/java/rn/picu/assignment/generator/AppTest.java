@@ -4,6 +4,9 @@
 package rn.picu.assignment.generator;
 
 import org.junit.jupiter.api.Test;
+
+import rn.picu.assignment.generator.application.App;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
