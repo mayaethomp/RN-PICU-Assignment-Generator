@@ -32,7 +32,7 @@ public enum Restriction {
   RADIATION, 
   
   /**
-   * Nurse may not be assigned to be resource nurse.
+   * Nurse may not be assigned as the resource (TL) nurse.
    */
   NO_TL
 }
