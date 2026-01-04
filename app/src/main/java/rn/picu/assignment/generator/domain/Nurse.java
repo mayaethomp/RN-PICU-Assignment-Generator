@@ -9,9 +9,15 @@ import java.util.UUID;
  * Represents a nurse to be assigned to a patient
  * 
  * <p>
- * A {@code Nurse} has a fixed name and UUID to identify them. The nurse's
- * experience level is derived from their start date and assignments are
- * determined by the nurse's home unit (e.g. PICU, NICCU, CTICU).
+ * A {@code Nurse} represents nursing staff available for assignment. This class stores
+ * identity and scheduling-relevant attributes (e.g., start date, home unit, skills, and
+ * restrictions) used by the assignment engine.
+ * </p>
+ * 
+ * <p>
+ * A {@code Nurse} has a unique identifier ({@link UUID}) and a recorded name. Assignment
+ * eligibility and pairing decisions consider attributes such as unit start date (experience),
+ * home unit, skills, restrictions, and other shift-specific constraints.
  * </p>
  */
 
