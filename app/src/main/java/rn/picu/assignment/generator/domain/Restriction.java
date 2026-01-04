@@ -29,5 +29,10 @@ public enum Restriction {
   /**
    * Nurse may not be assigned to patients receiving radiation therapy.
    */
-  RADIATION
+  RADIATION, 
+  
+  /**
+   * Nurse may not be assigned to be resource nurse.
+   */
+  NO_TL
 }
