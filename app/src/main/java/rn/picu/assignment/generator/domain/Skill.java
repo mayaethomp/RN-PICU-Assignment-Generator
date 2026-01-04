@@ -1,5 +1,6 @@
 package rn.picu.assignment.generator.domain;
 
-public class Skill {
-
+public enum Skill {
+  CVVH,
+  CHEMO
 }
