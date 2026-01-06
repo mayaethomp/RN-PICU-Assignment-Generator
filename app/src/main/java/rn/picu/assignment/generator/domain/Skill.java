@@ -1,14 +1,14 @@
 package rn.picu.assignment.generator.domain;
 
 /**
- * Represents skills that can be acquired by the nurse through 
- * training and/or certification and are required to be assigned to 
+ * Represents skills that can be acquired by the nurse through
+ * training and/or certification and are required to be assigned to
  * some patients.
  */
 public enum Skill {
   /**
-   * Continuous veno-venous hemofiltration, also called CVVH, is a 
-   * form of continuous renal (or kidney) replacement therapy that 
+   * Continuous veno-venous hemofiltration, also called CVVH, is a
+   * form of continuous renal (or kidney) replacement therapy that
    * is like dialysis (also called CRRT)
    */
   CVVH,
@@ -16,17 +16,17 @@ public enum Skill {
   /**
    * Chemotherapy; requires certification
    */
-  CHEMO, 
-  
+  CHEMO,
+
   /**
-   *  The Carpediem™ system; intended for continuous renal 
-   * replacement therapy for pediatric patients weighing 
+   * The Carpediem™ system; intended for continuous renal
+   * replacement therapy for pediatric patients weighing
    * between 2.5 and 10 kilograms.
    */
   CARPEDIEM,
 
   /**
-   * Charge nurse; oversees operations of the nursing unit during a 
+   * Charge nurse; oversees operations of the nursing unit during a
    * shift and assigns nurses to patients for the following shift
    */
   CHARGE

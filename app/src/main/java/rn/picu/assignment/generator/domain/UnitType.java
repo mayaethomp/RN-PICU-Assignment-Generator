@@ -1,7 +1,8 @@
 package rn.picu.assignment.generator.domain;
 
 /**
- * Represents units of the hospitals that nurses are hired to and work in on a regular basis.
+ * Represents units of the hospitals that nurses are hired to and work in on a
+ * regular basis.
  */
 public enum UnitType {
   /**
