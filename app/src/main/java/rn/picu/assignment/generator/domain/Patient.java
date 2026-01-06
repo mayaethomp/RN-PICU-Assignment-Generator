@@ -22,7 +22,7 @@ import java.util.UUID;
 
 public class Patient {
   private final UUID id;
-  private final int roomNumber;
+  private final BedLocation location;
 
   /**
    * Specialized skills that are required for the patient to have to care for the
@@ -34,18 +34,13 @@ public class Patient {
    * Constructs a new {@code Patient}
    * 
    * @param id         the non-null id number assigned to the patient
-   * @param roomNumber the positive room number the patient is in
+   * @param location the positive room number the patient is in
    * @param skills     skills the patient requires of the patient assigned
    */
 
-  public Patient(UUID id, int roomNumber, Set<Skill> skills) {
+  public Patient(UUID id, BedLocation location, Set<Skill> skills) {
     this.id = Objects.requireNonNull(id);
-
-    if (roomNumber <= 0 || roomNumber >= 26) {
-      throw new IllegalArgumentException("roomNumber must be positive and up to 25");
-    }
-    this.roomNumber = Objects.requireNonNull(roomNumber);
-
+    this.location = Objects.requireNonNull(location);
     this.requiredSkills = Set.copyOf(Objects.requireNonNull(skills, "skills must not be null"));
   }
 
@@ -53,8 +48,8 @@ public class Patient {
     return id;
   }
 
-  public int getRoomNumber() {
-    return roomNumber;
+  public BedLocation getlocation() {
+    return location;
   }
 
   /**
