@@ -12,10 +12,12 @@ public enum Skill {
    * is like dialysis (also called CRRT)
    */
   CVVH,
+
   /**
    * Chemotherapy; requires certification
    */
   CHEMO, 
+  
   /**
    *  The Carpediem™ system; intended for continuous renal 
    * replacement therapy for pediatric patients weighing 
