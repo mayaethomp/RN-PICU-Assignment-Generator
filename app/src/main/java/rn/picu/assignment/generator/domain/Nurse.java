@@ -9,7 +9,7 @@ import java.util.UUID;
  * Represents a nurse to be assigned to a patient
  * 
  * <p>
- * A {@code Nurse} represents nursing staff available for assignment. This class stores
+ * A {@code Nurse} represents a member of the nursing staff available for assignment. This class stores
  * identity and scheduling-relevant attributes (e.g., start date, home unit, skills, and
  * restrictions) used by the assignment engine.
  * </p>
