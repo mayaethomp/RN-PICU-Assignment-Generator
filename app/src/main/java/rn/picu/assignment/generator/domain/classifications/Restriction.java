@@ -1,4 +1,4 @@
-package rn.picu.assignment.generator.domain;
+package rn.picu.assignment.generator.domain.classifications;
 
 /**
  * Represents assignment restrictions that limit which patient populations
@@ -29,10 +29,16 @@ public enum Restriction {
   /**
    * Nurse may not be assigned to patients receiving radiation therapy.
    */
-  RADIATION, 
+  NO_RADIATION, 
   
   /**
    * Nurse may not be assigned as the resource (TL) nurse.
    */
-  NO_TL
+  NO_TL,
+
+  /**
+   * Nurse may not be independently assigned to any patients,
+   * must have preceptor assigned with nurse. 
+   */
+  PRECEPTEE
 }

@@ -1,6 +1,6 @@
-package rn.picu.assignment.generator.domain;
+package rn.picu.assignment.generator.domain.classifications;
 
-public enum CareComplexities {
+public enum CareComplexity {
   FEMALE_CAREGIVERS_ONLY,
   PATIENT_BEHAVIORAL,
   FAMILY_BEHAVIORAL,

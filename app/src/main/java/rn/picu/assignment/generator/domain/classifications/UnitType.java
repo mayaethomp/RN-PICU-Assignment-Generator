@@ -1,4 +1,4 @@
-package rn.picu.assignment.generator.domain;
+package rn.picu.assignment.generator.domain.classifications;
 
 /**
  * Represents units of the hospitals that nurses are hired to and work in on a

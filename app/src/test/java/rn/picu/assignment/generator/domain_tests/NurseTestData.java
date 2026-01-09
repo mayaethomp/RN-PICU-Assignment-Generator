@@ -4,10 +4,10 @@ import java.time.LocalDate;
 import java.util.Set;
 import java.util.UUID;
 
-import rn.picu.assignment.generator.domain.Nurse;
-import rn.picu.assignment.generator.domain.Restriction;
-import rn.picu.assignment.generator.domain.Skill;
-import rn.picu.assignment.generator.domain.UnitType;
+import rn.picu.assignment.generator.domain.classifications.Restriction;
+import rn.picu.assignment.generator.domain.classifications.Skill;
+import rn.picu.assignment.generator.domain.classifications.UnitType;
+import rn.picu.assignment.generator.domain.entities.Nurse;
 
 class NurseTestData {
 

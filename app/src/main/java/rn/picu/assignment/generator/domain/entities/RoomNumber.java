@@ -1,4 +1,4 @@
-package rn.picu.assignment.generator.domain;
+package rn.picu.assignment.generator.domain.entities;
 
 import java.util.Set;
 

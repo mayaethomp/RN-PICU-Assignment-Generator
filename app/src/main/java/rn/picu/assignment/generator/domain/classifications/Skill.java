@@ -1,4 +1,4 @@
-package rn.picu.assignment.generator.domain;
+package rn.picu.assignment.generator.domain.classifications;
 
 /**
  * Represents skills that can be acquired by the nurse through
