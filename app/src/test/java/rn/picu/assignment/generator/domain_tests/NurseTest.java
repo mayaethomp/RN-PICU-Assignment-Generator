@@ -10,9 +10,9 @@ import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import rn.picu.assignment.generator.domain.Nurse;
-import rn.picu.assignment.generator.domain.Skill;
-import rn.picu.assignment.generator.domain.UnitType;
+import rn.picu.assignment.generator.domain.classifications.Skill;
+import rn.picu.assignment.generator.domain.classifications.UnitType;
+import rn.picu.assignment.generator.domain.entities.Nurse;
 
 public class NurseTest {
 

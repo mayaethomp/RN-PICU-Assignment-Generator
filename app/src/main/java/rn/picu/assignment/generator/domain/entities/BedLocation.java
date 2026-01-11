@@ -1,4 +1,6 @@
-package rn.picu.assignment.generator.domain;
+package rn.picu.assignment.generator.domain.entities;
+
+import rn.picu.assignment.generator.domain.classifications.BedSide;
 
 public record BedLocation(RoomNumber room, BedSide bedSide) {
 

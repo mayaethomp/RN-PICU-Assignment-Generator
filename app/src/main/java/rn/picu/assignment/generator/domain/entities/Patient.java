@@ -1,8 +1,10 @@
-package rn.picu.assignment.generator.domain;
+package rn.picu.assignment.generator.domain.entities;
 
 import java.util.Objects;
 import java.util.Set;
 import java.util.UUID;
+
+import rn.picu.assignment.generator.domain.classifications.Skill;
 
 /**
  * Represents a patient that is admitted to the unit and requiring a patient

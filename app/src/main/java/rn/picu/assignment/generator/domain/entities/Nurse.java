@@ -1,9 +1,13 @@
-package rn.picu.assignment.generator.domain;
+package rn.picu.assignment.generator.domain.entities;
 
 import java.time.LocalDate;
 import java.util.Objects;
 import java.util.Set;
 import java.util.UUID;
+
+import rn.picu.assignment.generator.domain.classifications.Restriction;
+import rn.picu.assignment.generator.domain.classifications.Skill;
+import rn.picu.assignment.generator.domain.classifications.UnitType;
 
 /**
  * Represents a nurse to be assigned to a patient
