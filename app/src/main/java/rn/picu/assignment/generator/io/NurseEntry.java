@@ -12,4 +12,8 @@ public class NurseEntry {
   private List<Skill> skills;
   private List<Restriction> restrictions;
   private UnitType homeUnit;
+
+  public NurseEntry(Nurse nurse, List<Skill> skills, List<Restriction> restrictions, UnitType homeUnit) {
+    
+  }
 }
