@@ -1,17 +1,24 @@
 package rn.picu.assignment.generator.io;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 public class CSVReader {
-    public List<Entry> loadNurseData(String inputFile) {
-    List<Entry> entries = new ArrayList<>();
+    public List<NurseEntry> loadData(String inputFile) { // TODO will change to a generic
+    List<NurseEntry> entries = new ArrayList<>();
     if (!isInputFileAValidCSV(inputFile)) {
       return null;
     }
 
-    try (BufferedReader br = new BufferedReader(new FileReader(inputFile))) {
+    try (BufferedReader reader = new BufferedReader(new FileReader(inputFile))) {
       String line;
 
-      while ((line = br.readLine()) != null) {
-        Entry entry = parseCSVLines(line);
+      while ((line = reader.readLine()) != null) {
+        NurseEntry entry = parseCSVLines(line);  // TODO need method
         if (entry == null) {
           return null;
         } else {
