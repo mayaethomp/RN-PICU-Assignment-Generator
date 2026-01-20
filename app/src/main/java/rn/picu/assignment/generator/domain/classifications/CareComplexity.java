@@ -17,6 +17,10 @@ public enum CareComplexity {
    */
   EOL,
   SELF_HARM,
+
+  /**
+   * Hospital holds designates a minor patient unable to be visited or discharged by a parent expected of abuse or neglect
+   */
   HOSPITAL_HOLD,
   ISOLATION
 }
