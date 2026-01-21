@@ -61,7 +61,6 @@ public class NurseTest {
   @DisplayName("Skills collection is immutable")
   void modifyingReturnedSkillsDoesNotAffectNurse() {
     Nurse nurse = NurseTestData.experiencedPICUNurse();
-
     assertThrows(UnsupportedOperationException.class, () -> nurse.getSkills().add(Skill.CVVH));
   }
 
