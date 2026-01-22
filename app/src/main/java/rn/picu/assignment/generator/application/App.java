@@ -5,7 +5,7 @@ package rn.picu.assignment.generator.application;
 
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+        return "Welcome to the RN PICU Assignment Generator!";
     }
 
     public static void main(String[] args) {
