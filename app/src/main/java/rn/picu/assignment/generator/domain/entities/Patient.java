@@ -55,7 +55,7 @@ public class Patient {
   }
 
   /**
-   * Returns the skills required by the patient to care for the patient
+   * Returns the skills required by the nurse to care for the patient
    * 
    * @return skills the patient requires of the patient assigned
    */
