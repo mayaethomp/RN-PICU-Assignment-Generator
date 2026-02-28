@@ -14,6 +14,9 @@ public class NurseEntry {
   private UnitType homeUnit;
 
   public NurseEntry(Nurse nurse, List<Skill> skills, List<Restriction> restrictions, UnitType homeUnit) {
-    
+    this.nurse = nurse;
+    this.skills = skills;
+    this.restrictions = restrictions;
+    this.homeUnit = homeUnit;
   }
 }
