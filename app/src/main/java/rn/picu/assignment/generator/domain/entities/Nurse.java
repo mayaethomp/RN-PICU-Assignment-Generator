@@ -61,7 +61,7 @@ public class Nurse {
       Set<Skill> skills,
       Set<Restriction> restrictions) {
     this.name = Objects.requireNonNull(name);
-    this.id = Objects.requireNonNull(id);
+    this.id = Objects.requireNonNull(id);  // creating generates new ID or keep ID consistent? if no ID --> generate one?
     this.unitStartDate = Objects.requireNonNull(unitStartDate);
     this.homeUnit = Objects.requireNonNull(homeUnit);
     this.skills = Set.copyOf(Objects.requireNonNull(skills));
