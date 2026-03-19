@@ -29,5 +29,9 @@ public enum Skill {
    * Charge nurse; oversees operations of the nursing unit during a
    * shift and assigns nurses to patients for the following shift
    */
-  CHARGE
+  CHARGE,
+
+  TL
 }
+
+

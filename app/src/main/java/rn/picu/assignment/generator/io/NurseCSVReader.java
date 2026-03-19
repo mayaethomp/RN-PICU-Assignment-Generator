@@ -11,10 +11,8 @@ public class NurseCSVReader implements CSVReader {
     try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
       String line;
       while ((line = reader.readLine()) != null) {
-        String[] nurses = line.splits(",");
-        for (String nurse : nurses) {
-          // create entry objects
-        }
+        String[] columns = line.split(",");
+        String name = columns[0];
       }
     } catch (IOException e) {
       e.printStackTrace();
